@@ -1,17 +1,17 @@
 # Site settings
-title: Editorial
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: "Home"  # page specific title variables will be called at a lower scope
+subtitle: " | Nathan M"  # subtitle will be called and appended after each title
+email: youremailaddress@gmail.com # TODO update email address
 description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
-baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site # TODO
+author: # TODO
+street_address: 1234 Somewhere Road # TODO
+city: Nashville # TODO
+state: TN # TODO
+zip_code: 55555 # TODO
+country: United States of America # TODO
+phone: (716) 555-5555 # TODO
 
 # Social settings
 500px_url:
