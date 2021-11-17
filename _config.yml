@@ -1,6 +1,6 @@
 # Site settings
-title: "Home"  # page specific title variables will be called at a lower scope
-subtitle: " | Nathan M"  # subtitle will be called and appended after each title
+title: " | Nathan M"  # title will be called and appended to each subtitle
+subtitle: "Home"  # page specific title variables will be called at a lower scope
 email: youremailaddress@gmail.com # TODO update email address
 description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
 baseurl: "/home" # the subpath of your site, e.g. /blog
