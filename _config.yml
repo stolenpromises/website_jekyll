@@ -1,17 +1,17 @@
 # Site settings
 title: " | Nathan M"  # title will be called and appended to each subtitle
-subtitle: "Home"  # page specific title variables will be called at a lower scope
-email: youremailaddress@gmail.com # TODO update email address
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+subtitle: "Home"  # page specific title variables will be called at a lower scope, overriding this variable
+email: nathan.ed.mcdonald@outlook.com # TODO update email address
+description: "My hub for all things computer science"
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site # TODO
-author: # TODO
-street_address: 1234 Somewhere Road # TODO
-city: Nashville # TODO
-state: TN # TODO
-zip_code: 55555 # TODO
-country: United States of America # TODO
-phone: (716) 555-5555 # TODO
+author: "Nathan McDonald" # TODO redirect to github
+street_address:
+city: "Round Rock"
+state: "TX"
+zip_code: #
+country: United States of America
+phone: (817) 213-6283
 
 # Social settings
 500px_url:
