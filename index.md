@@ -1,20 +1,24 @@
 ---
 layout: default
 subtitle: Home
+github_svg: assets/icons/github.svg
 ---
 
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Erat lacinia</h2>
+		<h2>Skills</h2>
 	</header>
 	<div class="features">
 		<article>
-			<span class="icon fa-diamond"></span>
+			<!-- <span class="icon fa-diamond"></span> -->
+			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>
 			<div class="content">
-				<h3>Portitor ullamcorper</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+				<h3>Python</h3>
+				<p>I am proficient in Python</p>
+			</div>assets\icons
 		</article>
 		<article>
 			<span class="icon fa-paper-plane"></span>
