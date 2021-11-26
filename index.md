@@ -1,9 +1,8 @@
 ---
 layout: default
 subtitle: Home
-github_svg: assets/icons/github.svg
+github_svg: "assets/images/github.png"
 ---
-
 <!-- Section -->
 <section>
 	<header class="major">
@@ -14,17 +13,17 @@ github_svg: assets/icons/github.svg
 			<!-- <span class="icon fa-diamond"></span> -->
 			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
 			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>
+			<span class="image fit"><img src="{{ site.github_png }}" alt="" /></span>
 			<div class="content">
 				<h3>Python</h3>
 				<p>I am proficient in Python</p>
-			</div>assets\icons
+			</div>
 		</article>
 		<article>
-			<span class="icon fa-paper-plane"></span>
+			<span class="image fit"><img src="{{ page.github_svg }}"  alt="" /></span>
 			<div class="content">
-				<h3>Sapien veroeros</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<h3>Python</h3>
+				<p>I am proficient in Python</p>
 			</div>
 		</article>
 		<article>

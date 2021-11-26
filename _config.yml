@@ -12,6 +12,7 @@ state: "TX"
 zip_code: #
 country: United States of America
 phone: (817) 213-6283
+github_png: "assets/images/github.png"
 
 # Social settings
 500px_url:
