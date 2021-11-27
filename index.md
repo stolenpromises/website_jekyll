@@ -30,11 +30,14 @@ subtitle: Home
 			</div>
 		</article>
 		<article>
-			<a href="{{ site.spyder_url }}"><span class="image fit"><img src="{{ site.spyder_svg }}" alt="" style="text-decoration: none"/></span></a>
+			<a href="{{ site.spyder_url }}"><span class="image fit"><img src="{{ site.spyder_svg }}" alt="" /></span></a>
 			<div class="content">
 				<h3>Spyder IDE</h3>
 				<p>I am proficient in Spyder IDE</p>
 			</div>
+		</article>
+		<article>
+			<a href="#" class="button small">More</a>
 		</article>
 	</div>
 </section>
@@ -46,7 +49,7 @@ subtitle: Home
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ site.github_url }}" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
+			<a href="{{ 'portfolio/robot_vacuum.html' | absolute_url }}" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
 			<h3>Interdum aenean</h3>
 			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 			<ul class="actions">
