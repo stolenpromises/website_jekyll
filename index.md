@@ -9,68 +9,31 @@ subtitle: Home
 	</header>
 	<div class="features">
 		<article>
-			<!-- <span class="icon fa-diamond"></span> -->
-			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
-			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<a href="{{ site.python_url }}"><span class="image fit"><img src="{{ site.python_svg }}" alt="" /></span></a>
 			<div class="content">
 				<h3>Python</h3>
 				<p>I am proficient in Python</p>
 			</div>
 		</article>
 		<article>
-			<!-- <span class="icon fa-diamond"></span> -->
-			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
-			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<a href="{{ site.numpy_url }}"><span class="image fit"><img src="{{ site.numpy_svg }}" alt="" /></span></a>
 			<div class="content">
-				<h3>Python</h3>
-				<p>I am proficient in Python</p>
+				<h3>NumPy</h3>
+				<p>I am proficient in NumPy</p>
 			</div>
 		</article>		
 		<article>
-			<!-- <span class="icon fa-diamond"></span> -->
-			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
 			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
 			<div class="content">
-				<h3>Python</h3>
-				<p>I am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in Python</p>
+				<h3>GitHub</h3>
+				<p>I am proficient in GitHub</p>
 			</div>
 		</article>
 		<article>
-			<!-- <span class="icon fa-diamond"></span> -->
-			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
-			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<a href="{{ site.spyder_url }}"><span class="image fit"><img src="{{ site.spyder_svg }}" alt="" style="text-decoration: none"/></span></a>
 			<div class="content">
-				<h3>Python</h3>
-				<p>I am proficient in Python</p>
-			</div>
-		</article>
-		<article>
-			<span class="image fit"><img src="{{ site.github_png }}"  alt="" /></span>
-			<div class="content">
-				<h3>Python</h3>
-				<p>Testing commit</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-rocket"></span>
-			<div class="content">
-				<h3>Quam lorem ipsum</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-signal"></span>
-			<div class="content">
-				<h3>Sed magna finibus</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<h3>Spyder IDE</h3>
+				<p>I am proficient in Spyder IDE</p>
 			</div>
 		</article>
 	</div>
@@ -83,7 +46,7 @@ subtitle: Home
 	</header>
 	<div class="posts">
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
+			<a href="{{ site.github_url }}" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
 			<h3>Interdum aenean</h3>
 			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 			<ul class="actions">

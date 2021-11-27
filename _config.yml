@@ -13,13 +13,19 @@ zip_code: #
 country: United States of America
 phone: (817) 213-6283
 
-# External link images
+# Icons and Links for compliance with licenses
+python_svg: "assets/icons/python.svg"
+python_url: "https://python.org"
+numpy_svg: "assets/icons/numpy.svg"
+numpy_url: https://numpy.org
 github_svg: "assets/icons/github.svg"
-github_png: "assets/images/github.png"
+github_url: https://github.com/stolenpromises/  # TODO update github user name
+spyder_svg: "assets/icons/spyder.svg"
+spyder_url: https://www.spyder-ide.org
+
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/therealnathan
-github_url: https://github.com/stolenpromises/  # TODO update github user name
 gitlab_url:
 googleplus_url: 
 instagram_url: 
