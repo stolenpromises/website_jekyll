@@ -1,7 +1,6 @@
 ---
 layout: default
 subtitle: Home
-github_svg: "assets/images/github.png"
 ---
 <!-- Section -->
 <section>
@@ -13,14 +12,48 @@ github_svg: "assets/images/github.png"
 			<!-- <span class="icon fa-diamond"></span> -->
 			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
 			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
-			<span class="image fit"><img src="{{ site.github_png }}" alt="" /></span>
+			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
+			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
 			<div class="content">
 				<h3>Python</h3>
 				<p>I am proficient in Python</p>
 			</div>
 		</article>
 		<article>
-			<span class="image fit"><img src="{{ page.github_svg }}"  alt="" /></span>
+			<!-- <span class="icon fa-diamond"></span> -->
+			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
+			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<div class="content">
+				<h3>Python</h3>
+				<p>I am proficient in Python</p>
+			</div>
+		</article>		
+		<article>
+			<!-- <span class="icon fa-diamond"></span> -->
+			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
+			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<div class="content">
+				<h3>Python</h3>
+				<p>I am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in PythonI am proficient in Python</p>
+			</div>
+		</article>
+		<article>
+			<!-- <span class="icon fa-diamond"></span> -->
+			<!-- <class="image"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!-- <span class="image fit"><img src="assets/icons/github.svg" alt="" /></span>-->
+			<!--<a href="site.github_url" class="image"><img src="{{ site.github_png }}" alt="" /></a>-->
+			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
+			<div class="content">
+				<h3>Python</h3>
+				<p>I am proficient in Python</p>
+			</div>
+		</article>
+		<article>
+			<span class="image fit"><img src="{{ site.github_png }}"  alt="" /></span>
 			<div class="content">
 				<h3>Python</h3>
 				<p>Testing commit</p>
