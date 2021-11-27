@@ -37,7 +37,7 @@ subtitle: Home
 			</div>
 		</article>
 		<article>
-			<a href="#" class="button small">More</a>
+			<a href="#" class="button">More</a>
 		</article>
 	</div>
 </section>
@@ -45,55 +45,31 @@ subtitle: Home
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Ipsum sed dolor</h2>
+		<h2>Projects</h2>
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ 'portfolio/robot_vacuum.html' | absolute_url }}" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
-			<h3>Interdum aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<a href="{{ 'portfolio/robot_vacuum.html' | absolute_url }}" class="image"><img src="{{ site.robot_jpg }}" alt="" /></a>
+			<h3>Robot Vacuum</h3>
+			<p>Random robots demonstrate algorithmic efficiency.</p>
 			<ul class="actions">
 				<li><a href="#" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
-			<h3>Nulla amet dolore</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<a href="{{ 'portfolio/viral_growth.html' | absolute_url }}" class="image"><img src="{{ site.virus_jpg }}" alt="" /></a>
+			<h3>Viral Growth</h3>
+			<p>Simulations of viral growth within a patient under various different circumstances.</p>
 			<ul class="actions">
 				<li><a href="#" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
-			<h3>Tempus ullamcorper</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<a href="{{ 'portfolio/this_website.html' | absolute_url }}" class="image"><img src="{{ site.this_website_jpg }}" alt="" /></a>
+			<h3>This website</h3>
+			<p>I started with an HTML5 template built for Jekyll.</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
-			<h3>Sed etiam facilis</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
-			<h3>Feugiat lorem aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
-			<h3>Amet varius aliquam</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{{ 'portfolio/this_website.html' | absolute_url }}" class="button">More</a></li>
 			</ul>
 		</article>
 	</div>

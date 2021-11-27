@@ -23,6 +23,11 @@ github_url: https://github.com/stolenpromises/  # TODO update github user name
 spyder_svg: "assets/icons/spyder.svg"
 spyder_url: https://www.spyder-ide.org
 
+#project images
+robot_jpg: "assets/images/robot.jpg"
+virus_jpg: "assets/images/virus.jpg"
+this_website_jpg: "assets/images/website.svg"
+
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/therealnathan
