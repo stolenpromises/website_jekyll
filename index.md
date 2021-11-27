@@ -23,7 +23,7 @@ github_svg: "assets/images/github.png"
 			<span class="image fit"><img src="{{ page.github_svg }}"  alt="" /></span>
 			<div class="content">
 				<h3>Python</h3>
-				<p>I am proficient in Python</p>
+				<p>Testing commit</p>
 			</div>
 		</article>
 		<article>
