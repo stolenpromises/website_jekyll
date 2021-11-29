@@ -43,5 +43,7 @@ twitter_url: https://twitter.com/therealnatemcd
 markdown: kramdown
 
 collections:
-  - projects
-  
+  projects:
+    sort_by: index
+    output: true
+    collection_layout: project

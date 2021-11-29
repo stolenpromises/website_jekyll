@@ -37,7 +37,7 @@ subtitle: Home
 			</div>
 		</article>
 		<article>
-			<a href="#" class="button">More</a>
+			<a href="#" class="button">more skills</a>
 		</article>
 	</div>
 </section>
@@ -45,19 +45,24 @@ subtitle: Home
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Projects</h2>
+		<h2>Project Highlights</h2>
 	</header>
-	<!-- selection of key projects --> 
+	<!-- selection of highlighted projects --> 
 	<div class="posts">
 		<!-- TODO update blubs-->
-		{% include project.html project_title="Viral Growth" filename="viral_growth" ext=".jpg" project_blurb="Simulations of viral growth within a patient under various different circumstances." %}
-		{% include project.html project_title="Robot Vacuum" filename="robot" ext=".jpg" project_blurb="Random robots demonstrate algorithmic efficiency." %}
-		{% include project.html project_title="This Website" filename="this_website" ext=".jpg" project_blurb="I started with an HTML5 template built for Jekyll." %}
-		{% for project in site.projects %}
-			{% include article.html %}
+		{% for project in site.projects %} 	{% comment %}
+											loop over _projects collection 
+	 										{% endcomment %}
+			{% if project.highlight %}  		{% comment %}
+												only iterate over highlight projects 
+	 											{% endcomment %}
+				{% include article.html %}			{% comment %}
+													_project variables are passed to article.html before generation
+													{% endcomment %}
+			{% endif %}
 		{% endfor %}
 	</div>
 		<article>
-		<a href="#" class="button">Full portfolio</a>
+		<a href="#" class="button">All Projects</a>
 		</article>
 </section>
