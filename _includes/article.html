@@ -1,0 +1,15 @@
+<!-- required include variables:
+        project_title
+        filename
+        ext
+        project_blurb
+        --> 
+
+<article>
+    <a href="{{'/portfolio/' |  absolute_url }}{{ project.filename }}.html" class="image"><img src="{{'assets/images/'}}{{ project.filename }}{{project.ext}}" alt="" /></a>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.blurb }}</p>
+    <ul class="actions">
+        <li><a href="{{'/portfolio/'' |  absolute_url }}{{ project.filename }}.html" class="button small">More</a></li>
+    </ul>
+</article>

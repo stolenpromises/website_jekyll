@@ -1,12 +1,19 @@
 ---
 layout: project
 title: Portfolio
+collections: projects
+
 ---
 <!-- Section -->
 <section>
 	<div class="posts">
 	</div>
 </section>
+
+{% for project in site.projects %}
+  <h2>{{ project.title }} - {{ project.filename }}{{ project.ext}}</h2>
+  <p>{{ project.blurb}}</p>
+{% endfor %}
 
 <!--project list-->
 <!-- 6.00.2x -->
