@@ -47,8 +47,14 @@ subtitle: Home
 	<header class="major">
 		<h2>Projects</h2>
 	</header>
+	<!-- selection of key projects --> 
 	<div class="posts">
-		{% include projects/projects_selection.html %}
-		{% include project.html project_title="this_website" ext=".svg" %}
+		<!-- TODO update blubs-->
+		{% include project.html project_title="Viral Growth" filename="viral_growth" ext=".jpg" project_blurb="Simulations of viral growth within a patient under various different circumstances." %}
+		{% include project.html project_title="Robot Vacuum" filename="robot" ext=".jpg" project_blurb="Random robots demonstrate algorithmic efficiency." %}
+		{% include project.html project_title="This Website" filename="this_website" ext=".jpg" project_blurb="I started with an HTML5 template built for Jekyll." %}
 	</div>
+		<article>
+		<a href="#" class="button">Full portfolio</a>
+		</article>
 </section>
