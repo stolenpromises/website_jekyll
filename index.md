@@ -49,5 +49,6 @@ subtitle: Home
 	</header>
 	<div class="posts">
 		{% include projects/projects_selection.html %}
+		{% include project.html project_title="this_website" ext=".svg" %}
 	</div>
 </section>
