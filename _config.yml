@@ -42,8 +42,9 @@ twitter_url: https://twitter.com/therealnatemcd
 # Build settings
 markdown: kramdown
 
+# collection
 collections:
-  projects:
-    sort_by: index
-    output: true
-    collection_layout: project
+  projects:  # _projects
+    sort_by: index  # iterations over projects will respect this
+    output: true  # output the projects each to their own .html under _site
+# collection specific variables

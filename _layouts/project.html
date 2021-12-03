@@ -30,10 +30,11 @@
                 	<header class="main">
                 		<h1>{{ page.project_demonstrates }}</h1>
                 	</header>
-
-                  {% if page.image %}
-                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                  <!-- Project image -->
+                  {% if page.filename %}
+                	<span class="image main"><img src="{{ 'assets/images/' }}{{ page.filename }}{{ page.ext }}"" alt="" /></span>
                   {% endif %}
+
 
                 {{ content }}
 
