@@ -2,6 +2,7 @@
 layout: default
 subtitle: Home
 ---
+{% comment %}
 <!-- Section -->
 <section>
 	<header class="major">
@@ -41,31 +42,34 @@ subtitle: Home
 		</article>
 	</div>
 </section>
+{% endcomment %}
 <!-- Section -->
 <section>
 	<header class="major">
 		<h2>Skills</h2>
 	</header>
 	<!-- Selection of highlighted skills. _skills collection is looped over. If a skill is marked to be included, a skill_include is called with scope of .skill variables(passed from the skill). --> 
-	<div class="posts">
+	<div class="features">
 		<!-- TODO update blubs-->
 		{% for skill in site.skills %} 	{% comment %}
-											loop over _collection
-	 										{% endcomment %}
+										loop over _collection
+										{% endcomment %}
 			{% if skill.highlight %}  		{% comment %}
-												only iterate over highlights
-	 											{% endcomment %}
-				{% include skill.md %}			{% comment %}
-													_skill variables are passed to skill.md before generation
-													{% endcomment %}
+											only iterate over highlights
+											{% endcomment %}
+				<!-- skill is {{ skill.title }}-->
+		{% include skill.md %}			{% comment %}
+										_skill variables are passed to skill.md before generation
+										{% endcomment %}
 			{% endif %}
 		{% endfor %}
 	</div>
+	<div>
 		<article>
-		<a href="#" class="button">All skills</a>  
+			<a href="#" class="button">All skills</a>
 		</article>
+	</div>
 </section>
-
 <!-- Section -->
 <section>
 	<header class="major">
@@ -86,7 +90,9 @@ subtitle: Home
 			{% endif %}
 		{% endfor %}
 	</div>
+	<div>
 		<article>
-		<a href="#" class="button">All Projects</a>
+			<a href="#" class="button">All Projects</a>
 		</article>
+	</div>
 </section>

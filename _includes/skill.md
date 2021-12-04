@@ -1,6 +1,7 @@
 {% comment %}
 This include generates an article. It requires passage of variables from the _skills collection and searches for projects which feature that skill.
 {% endcomment %}
+<!-- skill is {{ skill.title }}-->
 <article>
     <a href="{{ skill.attribution_url }}"><span class="image fit"><img src="{{'skills/assets/icons/'}}{{ skill.filename }}{{ '.svg' }}" alt="" /></span></a>
     <div class="content">    
@@ -13,13 +14,14 @@ This include generates an article. It requires passage of variables from the _sk
                                                         if skill is found in project
                                                     {% endcomment %}
                 {% comment %} add a link to skill page {% endcomment %}
-                <ul class="Featured projects">
-                    <li><a href="{{'/skills/'' |  absolute_url }}{{ skill.filename }}.html" class="button small">view</a></li>
-                </ul>
+        <ul class="actions">
+            <li><a href="{{'/skills/'' |  absolute_url }}{{ skill.filename }}.html" class="button small">Featured projects</a></li>
+        </ul>
                 {% comment %}
                 break to prevent multiple buttons being generated
                 {% endcomment %}
                 {% break %}
             {% endif %}
         {% endfor %}
+    </div>
 </article>
