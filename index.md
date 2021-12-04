@@ -43,7 +43,7 @@ subtitle: Home
 	</div>
 </section>
 {% endcomment %}
-<!-- Section -->
+<!-- Skills -->
 <section>
 	<header class="major">
 		<h2>Skills</h2>
@@ -57,7 +57,6 @@ subtitle: Home
 			{% if skill.highlight %}  		{% comment %}
 											only iterate over highlights
 											{% endcomment %}
-				<!-- skill is {{ skill.title }}-->
 		{% include skill.md %}			{% comment %}
 										_skill variables are passed to skill.md before generation
 										{% endcomment %}
@@ -70,7 +69,7 @@ subtitle: Home
 		</article>
 	</div>
 </section>
-<!-- Section -->
+<!-- Projects -->
 <section>
 	<header class="major">
 		<h2>Project Highlights</h2>
