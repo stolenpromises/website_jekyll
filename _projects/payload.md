@@ -11,6 +11,6 @@ ext: .jpg  # asset extension ex: images\project_a.jpg vs project_a.png
 highlight: True
 index: 11  # index number for sorting which affects loops over all projects
 
-# short project descriptor that will be displayed in plain text
+# short descriptor that will be displayed in plain text
 blurb: An optimization problem demonstrating various levels of optimality.
 ---

@@ -50,3 +50,4 @@ collections:
   # skill collection
   skills:  #_skills
     sort_by: index
+    output: true

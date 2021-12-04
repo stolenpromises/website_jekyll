@@ -44,25 +44,25 @@ subtitle: Home
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Project Highlights</h2>
+		<h2>Skills</h2>
 	</header>
-	<!-- Selection of highlighted projects. _projects collection is looped over. If a project is marked to be included, an article _include is called with scope of .project variables(passed from the project). --> 
+	<!-- Selection of highlighted skills. _skills collection is looped over. If a skill is marked to be included, a skill_include is called with scope of .skill variables(passed from the skill). --> 
 	<div class="posts">
 		<!-- TODO update blubs-->
-		{% for project in site.projects %} 	{% comment %}
-											loop over _projects collection 
+		{% for skill in site.skills %} 	{% comment %}
+											loop over _collection
 	 										{% endcomment %}
-			{% if project.highlight %}  		{% comment %}
-												only iterate over highlight projects 
+			{% if skill.highlight %}  		{% comment %}
+												only iterate over highlights
 	 											{% endcomment %}
-				{% include article.html %}			{% comment %}
-													_project variables are passed to article.html before generation
+				{% include skill.md %}			{% comment %}
+													_skill variables are passed to skill.md before generation
 													{% endcomment %}
 			{% endif %}
 		{% endfor %}
 	</div>
 		<article>
-		<a href="#" class="button">All Projects</a>
+		<a href="#" class="button">All skills</a>  
 		</article>
 </section>
 
@@ -78,7 +78,7 @@ subtitle: Home
 											loop over _projects collection 
 	 										{% endcomment %}
 			{% if project.highlight %}  		{% comment %}
-												only iterate over highlight projects 
+												only iterate over highlights 
 	 											{% endcomment %}
 				{% include article.html %}			{% comment %}
 													_project variables are passed to article.html before generation
