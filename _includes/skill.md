@@ -9,7 +9,7 @@ This include generates an article. It requires passage of variables from the _sk
         {% for project in site.projects %}  {% comment %}
                                             loop over _projects collection
                                             {% endcomment %}
-            {% if skill.filename is in project.skills %}  {% comment %}
+            {% if skill.filename contains project.skills %}  {% comment %}
                                                         if skill is found in project
                                                     {% endcomment %}
                 {% comment %} add a link to skill page {% endcomment %}
