@@ -17,4 +17,3 @@ index: 55
 blurb: An open source alterative to photoshop. I've found it useful for quick asset edits
 ---
 # content begins here
-{% include }

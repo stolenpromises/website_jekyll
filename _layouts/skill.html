@@ -1,67 +1,32 @@
-<!DOCTYPE HTML>
-<!--
-	Adapted by:
-	
-	stolenpromises.github.io | @stolenpromises
-	
-	From:
-	
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
-{% include head.html %}
-
-<body>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-
-                {% include header.html %}
-
-                <!-- Content -->
-                <section>
-                	<header class="main">
-                		<h1>{{ page.title }}</h1>
-                	</header>
-                  <!-- Skill image -->
-                  <article>
-                    <a href="{{ skill.attribution_url }}"><span class="image fit"><img src="{{'skills/assets/icons/'}}{{ skill.filename }}{{ '.svg' }}" alt="" /></span></a>
-                    <div class="content">    
-                        <h3>{{ skill.title }}</h3>
-                        <p>{{ skill.blurb }}</p>
-                    </div>
-                    <header class="major">
-                      <h2>"Projects that highlight {{ skill.title }}:"</h2>
-                    </header>
-                    <!-- Selection of projects which feature this skill. _projects collection is looped over. If a project includes, an article _include is called with scope of .project variables(passed from the project). --> 
-                    <div class="posts">
-                      <!-- TODO update blubs-->
-                      {% for project in site.projects %}  {% comment %} loop over _projects collection {% endcomment %}
-                        {% if project contains skill.filename %}  {% comment %} check for this skill {% endcomment %}
-                          {% include article.html %}  {% comment %} pass _project variables are passed to article.html and generate {% endcomment %}
-                        {% endif %}
-                      {% endfor %}
-                    </div>
-                    <div>
-                      <article>
-                        <a href="#" class="button">All Projects</a>
-                      </article>
-              </div>
-          </div>
-
-          {% include sidebar.html %}
-
-      </div>
-
-      {% include footer.html %}
-
-</body>
-
-</html>
+---
+layout: default
+---
+<!-- Content -->
+<section>
+  <header class="major">
+    <h2>{{ page.title }}</h2>
+  </header>
+  <!-- Skill image -->
+  <article>
+    <a href="{{ skill.attribution_url }}"><span class="image fit"><img src="{{ '/skills/assets/icons/' | absolute_url }}{{ page.filename }}{{ '.svg' }}" alt="" /></span></a>
+    <div class="content">    
+        <h3>{{ skill.title }}</h3>
+        <p>{{ skill.blurb }}</p>
+    </div>
+    <header class="major">
+      <h2>| {{ page.title }} projects</h2>
+    </header>
+    <!-- Selection of projects which feature this skill. _projects collection is looped over. If a project includes, an article _include is called with scope of .project variables(passed from the project). --> 
+    <div class="posts">
+      <!-- TODO update blubs-->
+      {% for project in site.projects %}  {% comment %} loop over _projects collection {% endcomment %}
+        {% if project contains skill.filename %}  {% comment %} check for this skill {% endcomment %}
+          {% include skill.html %}  {% comment %} pass _project variables are passed to skill.html and generate {% endcomment %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div>
+      <article>
+        <a href="#" class="button">All Projects</a>
+      </article>
+    </section>

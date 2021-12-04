@@ -2,47 +2,6 @@
 layout: default
 subtitle: Home
 ---
-{% comment %}
-<!-- Section -->
-<section>
-	<header class="major">
-		<h2>Skills</h2>
-	</header>
-	<div class="features">
-		<article>
-			<a href="{{ site.python_url }}"><span class="image fit"><img src="{{ site.python_svg }}" alt="" /></span></a>
-			<div class="content">
-				<h3>Python</h3>
-				<p>I am proficient in Python</p>
-			</div>
-		</article>
-		<article>
-			<a href="{{ site.numpy_url }}"><span class="image fit"><img src="{{ site.numpy_svg }}" alt="" /></span></a>
-			<div class="content">
-				<h3>NumPy</h3>
-				<p>I am proficient in NumPy</p>
-			</div>
-		</article>		
-		<article>
-			<a href="{{ site.github_url }}"><span class="image fit"><img src="{{ site.github_svg }}" alt="" /></span></a>
-			<div class="content">
-				<h3>GitHub</h3>
-				<p>I am proficient in GitHub</p>
-			</div>
-		</article>
-		<article>
-			<a href="{{ site.spyder_url }}"><span class="image fit"><img src="{{ site.spyder_svg }}" alt="" /></span></a>
-			<div class="content">
-				<h3>Spyder IDE</h3>
-				<p>I am proficient in Spyder IDE</p>
-			</div>
-		</article>
-		<article>
-			<a href="#" class="button">more skills</a>
-		</article>
-	</div>
-</section>
-{% endcomment %}
 <!-- Skills -->
 <section>
 	<header class="major">
@@ -65,7 +24,7 @@ subtitle: Home
 	</div>
 	<div>
 		<article>
-			<a href="#" class="button">All skills</a>
+			<a href="#" class="button">More skills</a>  #TODO construct
 		</article>
 	</div>
 </section>
@@ -91,7 +50,7 @@ subtitle: Home
 	</div>
 	<div>
 		<article>
-			<a href="#" class="button">All Projects</a>
+			<a href="#" class="button">More Projects</a>
 		</article>
 	</div>
 </section>

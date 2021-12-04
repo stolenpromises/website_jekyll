@@ -17,4 +17,3 @@ skills: inkscape, python, ruby, ruby_on_rails, liquid, jekyll, html5, github, sp
 # short descriptor that will be displayed in plain text
 blurb: I started with an HTML5 template built for Jekyll.
 ---
-{% include project.html %}

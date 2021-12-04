@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: skill
 
 # title that will be displayed in plain text
 title: Python
