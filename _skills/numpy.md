@@ -1,20 +1,18 @@
 ---
 # title that will be displayed in plain text
-title: Inkscape
+title: Numpy
 
 # universal file name for skill primary asset
-filename: inkscape
+filename: numpy
 
 # url for attribution/license complaince fair use of asset
-attribution_url: https://inkscape.org/
+attribution_url: https://numpy.org
 
-highlight: False  # true if highlighted, false otherwise
+highlight: True  # true if highlighted, false otherwise
 
 # index number for sorting which affects loops over all projects
-index: 55
+index: 110
 
 # short descriptor that will be displayed in plain text
-blurb: An open source alterative to photoshop. I've found it useful for quick asset edits
+blurb: I am proficient in NumPy
 ---
-# content begins here
-{% include }

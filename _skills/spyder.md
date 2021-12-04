@@ -1,20 +1,18 @@
 ---
 # title that will be displayed in plain text
-title: Inkscape
+title: Spyder
 
 # universal file name for skill primary asset
-filename: inkscape
+filename: spyder
 
 # url for attribution/license complaince fair use of asset
-attribution_url: https://inkscape.org/
+attribution_url: https://www.spyder-ide.org
 
-highlight: False  # true if highlighted, false otherwise
+highlight: True  # true if highlighted, false otherwise
 
 # index number for sorting which affects loops over all projects
-index: 55
+index: 205
 
 # short descriptor that will be displayed in plain text
-blurb: An open source alterative to photoshop. I've found it useful for quick asset edits
+blurb: I am proficient in Spyder IDE
 ---
-# content begins here
-{% include }

@@ -1,20 +1,18 @@
 ---
 # title that will be displayed in plain text
-title: Inkscape
+title: Github
 
 # universal file name for skill primary asset
-filename: inkscape
+filename: github
 
 # url for attribution/license complaince fair use of asset
-attribution_url: https://inkscape.org/
+attribution_url: https://github.com/stolenpromises/
 
-highlight: False  # true if highlighted, false otherwise
+highlight: True  # true if highlighted, false otherwise
 
 # index number for sorting which affects loops over all projects
-index: 55
+index: 235
 
 # short descriptor that will be displayed in plain text
-blurb: An open source alterative to photoshop. I've found it useful for quick asset edits
+blurb: I am proficient in GitHub
 ---
-# content begins here
-{% include }

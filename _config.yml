@@ -51,3 +51,11 @@ collections:
   skills:  #_skills
     sort_by: index
     output: true
+  # index map
+    # programming
+      # 010-040 | languages
+      # 100-199 | libraries
+      # 200-229 | IDE's
+      # 230-259 | source control
+    # other
+      # 700-799 | asset editing
