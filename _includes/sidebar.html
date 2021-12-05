@@ -15,10 +15,15 @@
             <h2>Menu</h2>
           </header>
           <ul>
+            <!-- home-->
             <li><a href="{{ '/' | absolute_url }}">Home</a></li>
-
-            <li>
-              <span class="opener">Portfolio</span>  <!-- submenu-->
+            <!-- skills -->
+            <li><a href="{{ '/skills.html' | absolute_url }}">Skills</a></li>
+            <!-- projects -->
+            <li><a href="{{ '/projects.html' | absolute_url }}">Projects</a></li>
+            <!-- submenu-->
+            <!--
+            <li><span class="opener">Portfolio</span>
               <ul>
                 <li><a href="{{ 'portfolio/robot_vacuum.html' | absolute_url }}">Robot Vacuum</a></li>
                 <li><a href="{{ 'portfolio/viral_growth.html' | absolute_url }}">Viral Growth</a></li>
@@ -26,8 +31,11 @@
                 <li><a href="{{ 'portfolio.html' | absolute_url }}">More</a></li>
               </ul>
             </li>
-            <li><a href="{{ 'resume.html' | absolute_url }}">Resume</a></li><!-- resume-->
+            -->
+            <!-- resume-->
+            <li><a href="{{ 'resume.html' | absolute_url }}">Resume</a></li> 
             </li>
+            <!-- about me-->
             <li><a href="{{ 'about_me.html' | absolute_url }}">About me</a></li>  <!-- about me-->
           </ul>
         </nav>
@@ -40,8 +48,7 @@
           <ul class="contact">
             <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
             <li class="fa-phone">{{ site.phone }}</li>
-            <li class="fa-home">{{ site.street_address }}<br />
-            {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+            <li class="fa-home">{{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
             {{ site.country }}</li>
           </ul>
         </section>
