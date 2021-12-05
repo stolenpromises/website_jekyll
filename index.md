@@ -2,6 +2,7 @@
 layout: default
 subtitle: Home
 ---
+{% include banner.html %}
 <!-- Skills -->
 <section>
 	<header class="major">
