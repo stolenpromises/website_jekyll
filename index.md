@@ -62,11 +62,6 @@ subtitle: Home
 		{% endfor %}
 	</div>
 	<div>
-		<!--
-		<article>
-			<a href="#" class="button">More Projects</a>
-		</article>
-		-->
 		<ul class="actions">
         	<li><a href="{{'/projects.html' |  relative_url }}" class="button">More Projects</a></li>
     	</ul>

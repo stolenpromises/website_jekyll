@@ -14,12 +14,14 @@ title: Projects
 		{% for project in site.projects %} 	{% comment %}
 											loop over _projects collection 
 	 										{% endcomment %}
-			{% if project.highlight %}  		{% comment %}
-												only iterate over highlights 
-	 											{% endcomment %}
 				{% include article.html %}			{% comment %}
 													_project variables are passed to article.html before generation
 													{% endcomment %}
-			{% endif %}
 		{% endfor %}
 	</div>
+  <div>
+		<ul class="actions">
+        <li><a href="{{'/skills.html' |  relative_url }}" class="button">Filter Projects</a></li>
+    </ul>
+	</div>
+</section>
