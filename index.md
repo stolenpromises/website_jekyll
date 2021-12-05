@@ -2,6 +2,7 @@
 layout: default
 subtitle: Home
 ---
+<!-- attribution -->
 <!--
 	Adapted by:
 	
@@ -14,7 +15,7 @@ subtitle: Home
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 {% include banner.html %}
-<!-- Skills -->
+<!-- highlighted skills -->
 <section>
 	<header class="major">
 		<h2>Skill Highlights</h2>
@@ -40,7 +41,7 @@ subtitle: Home
 		</article>
 	</div>
 </section>
-<!-- Projects -->
+<!-- highlighted projects -->
 <section>
 	<header class="major">
 		<h2>Project Highlights</h2>
@@ -61,8 +62,19 @@ subtitle: Home
 		{% endfor %}
 	</div>
 	<div>
+		<!--
 		<article>
 			<a href="#" class="button">More Projects</a>
 		</article>
+		-->
+		<ul class="actions">
+        	<li><a href="{{'/projects.html' |  relative_url }}" class="button">More Projects</a></li>
+    	</ul>
 	</div>
+</section>
+<!-- highlighted resume -->
+<section>
+</section>
+<!-- highlighted about_me -->
+<section>
 </section>

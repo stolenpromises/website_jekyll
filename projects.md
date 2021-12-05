@@ -1,32 +1,25 @@
 ---
-layout: project
-title: Portfolio
-collections: projects
+layout: default
+title: Projects
 
 ---
-<!-- Section -->
+<!-- projects -->
 <section>
+	<header class="major">
+		<h2>Projects</h2>
+	</header>
+	<!-- Selection of highlighted projects. _projects collection is looped over. If a project is marked to be included, an article _include is called with scope of .project variables(passed from the project). --> 
 	<div class="posts">
+		<!-- TODO update blubs-->
+		{% for project in site.projects %} 	{% comment %}
+											loop over _projects collection 
+	 										{% endcomment %}
+			{% if project.highlight %}  		{% comment %}
+												only iterate over highlights 
+	 											{% endcomment %}
+				{% include article.html %}			{% comment %}
+													_project variables are passed to article.html before generation
+													{% endcomment %}
+			{% endif %}
+		{% endfor %}
 	</div>
-</section>
-
-{% for project in site.projects %}
-  <h2>{{ project.title }} - {{ project.filename }}{{ project.ext}}</h2>
-  <p>{{ project.blurb}}</p>
-{% endfor %}
-
-<!--project list-->
-<!-- 6.00.2x -->
-<!-- optimization_cows-->
-<!-- model-training_climate-->
-<!-- sim-with-histogram-plots -->
-<!-- monte-carlo_ball-draw -->
-<!-- optimization-brute_array -->
-
-
-<!-- 6.00.1x -->
-<!-- w5_ps6 decryption -->
-<!-- w4_ps4a scrabble -->
-<!-- w3_ps3_hangman -->
-<!-- w2_ps2_p3 credit card balance -->
-<!-- misc exercizes -->
