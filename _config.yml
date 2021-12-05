@@ -45,17 +45,27 @@ markdown: kramdown
 # project collection
 collections:
   projects:  # _projects
-    sort_by: index  # iterations over projects will respect this
     output: true  # output the projects each to their own .html under _site
-  # skill collection
+    sort_by: index  # iterations over projects will respect this
+      # 6.00.2x 
+        # 010-040 | payload
+        # 100-199 | climate
+        # 200-229 | simulation
+        # 230-259 | roulette
+        # 230-259 | opt_brute
+      # 6.00.1x
+        # 700-799 | decryption w5_ps6
+        # 700-799 | scrabble w4_ps4a
+        # 700-799 | hangman w3_ps3
+        # 700-799 | cc_balance w2_ps2_p3
+        #         | misc exercises
   skills:  #_skills
-    sort_by: index
     output: true
-  # index map
-    # programming
-      # 010-040 | languages
-      # 100-199 | libraries
-      # 200-229 | IDE's
-      # 230-259 | source control
-    # other
-      # 700-799 | asset editing
+    sort_by: index
+      # programming
+        # 010-040 | languages
+        # 100-199 | libraries
+        # 200-229 | IDE's
+        # 230-259 | source control
+      # other
+        # 700-799 | asset editing
