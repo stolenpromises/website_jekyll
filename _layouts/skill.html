@@ -2,21 +2,60 @@
 layout: default
 ---
 <!-- Content -->
+<!--
+<header id="header">
+  <ul class="icons">
+    <li><a href="{{ skill.attribution_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
+  </ul>
+  -->
 <section>
-  <header class="major">
-    <h2>{{ page.title }}</h2>
-  </header>
-  <!-- Skill image -->
+  <div class="features">
+    <!-- Skill image -->
+    <article>
+      <a href="{{ page.attribution_url }}"><span class="image fit"><img src="{{ '/skills/assets/icons/' | absolute_url }}{{ page.filename }}{{ '.svg' }}" alt="" /></span></a>
+      <div class="content">    
+          <h2>{{ page.title }}</h2>
+          <p>{{ page.blurb }}</p>
+      </div>
+    </article>
+  </div>
+</section>
+<section>
+  <div class="posts">
+    <!-- TODO update blubs-->
+    {% for project in site.projects %}  {% comment %} loop over _projects collection {% endcomment %}
+      {% if project.skills contains page.filename %}  {% comment %} check for this skill {% endcomment %}
+        {% include article.html %}  {% comment %} pass _project variables are passed to article.html and generate {% endcomment %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div>
+    <article>
+      <a href="#" class="button">All Projects</a>
+    </article>
+  </div>
+</section>
+  <!--
   <article>
-    <a href="{{ skill.attribution_url }}"><span class="image fit"><img src="{{ '/skills/assets/icons/' | absolute_url }}{{ page.filename }}{{ '.svg' }}" alt="" /></span></a>
+    <a href="{{ skill.attribution_url }}" class="image"><img src="{{ '/skills/assets/icons/' | absolute_url }}{{ page.filename }}{{ '.svg' }}" alt="" /></a>
     <div class="content">    
-        <h3>{{ skill.title }}</h3>
-        <p>{{ skill.blurb }}</p>
+        <h3>{{ page.title }}</h3>
+        <p>{{ page.blurb }}</p>
     </div>
+  </article>
+  -->
+    <!--
     <header class="major">
-      <h2>| {{ page.title }} projects</h2>
+      <h2>
+        <ul class="icons">
+        <li><a href="{{ skill.attribution_url }}"><span class="image fit"><img src="{{ '/skills/assets/icons/' | absolute_url }}{{ page.filename }}{{ '.svg' }}" alt="" /></span></a></li>
+        <li>| {{ page.title }} projects</li>
+        </ul>
+      </h2>
     </header>
+    -->
     <!-- Selection of projects which feature this skill. _projects collection is looped over. If a project includes, an article _include is called with scope of .project variables(passed from the project). --> 
+    {% comment %}
     <div class="posts">
       <!-- TODO update blubs-->
       {% for project in site.projects %}  {% comment %} loop over _projects collection {% endcomment %}
@@ -29,4 +68,5 @@ layout: default
       <article>
         <a href="#" class="button">All Projects</a>
       </article>
-    </section>
+    </div>
+    {% endcomment %}

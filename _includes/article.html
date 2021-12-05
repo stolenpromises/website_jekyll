@@ -6,6 +6,9 @@ This include generates an article. It requires passage of variables from the _pr
     <h3>{{ project.title }}</h3>
     <p>{{ project.blurb }}</p>
     <ul class="actions">
+        {% comment %}
         <li><a href="{{'/projects/'' |  absolute_url }}{{ project.filename }}.html" class="button small">view</a></li>
+        {% endcomment %}
+        
     </ul>
 </article>
