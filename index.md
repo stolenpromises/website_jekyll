@@ -2,11 +2,22 @@
 layout: default
 subtitle: Home
 ---
+<!--
+	Adapted by:
+	
+	stolenpromises.github.io | @stolenpromises
+	
+	From:
+	
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 {% include banner.html %}
 <!-- Skills -->
 <section>
 	<header class="major">
-		<h2>Skills</h2>
+		<h2>Skill Highlights</h2>
 	</header>
 	<!-- Selection of highlighted skills. _skills collection is looped over. If a skill is marked to be included, a skill_include is called with scope of .skill variables(passed from the skill). --> 
 	<div class="features">
@@ -25,7 +36,7 @@ subtitle: Home
 	</div>
 	<div>
 		<article>
-			<a href="#" class="button">More skills</a>  #TODO construct
+			<a href="#" class="button">More skills</a>  <!--TODO construct -->
 		</article>
 	</div>
 </section>
