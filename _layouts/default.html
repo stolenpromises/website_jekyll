@@ -15,15 +15,11 @@
                 {% include header.html %}
 
                 <!-- Content -->
-                <section>
-                    <header class="main">
-                        <h1>{{ page.title }}</h1>
-                    </header>
-
-                    {% if page.image %}
+                {% if page.image %}
+                <section>                 
                     <span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
-                    {% endif %}
-
+                </section>  
+                {% endif %}
                 {{ content }}
 
             </div>
