@@ -5,9 +5,6 @@ title: Projects
 ---
 <!-- projects -->
 <section>
-	<header class="major">
-		<h2>Projects</h2>
-	</header>
 	<!-- Selection of highlighted projects. _projects collection is looped over. If a project is marked to be included, an article _include is called with scope of .project variables(passed from the project). --> 
 	<div class="posts">
 		<!-- TODO update blubs-->
