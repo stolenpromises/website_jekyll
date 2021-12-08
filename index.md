@@ -21,7 +21,8 @@ subtitle: Home
 		<h2>Skill Highlights</h2>
 	</header>
 	<!-- Selection of highlighted skills. _skills collection is looped over. If a skill is marked to be included, a skill_include is called with scope of .skill variables(passed from the skill). --> 
-	<div class="features">
+	<div class="features">  <!-- TODO use tamper dev or other to test diff browsers -->
+		<!-- TODO icons are too big on portrait sized screens -->
 		<!-- TODO update blubs-->
 		{% for skill in site.skills %} 	{% comment %}
 										loop over _collection
