@@ -16,7 +16,8 @@ highlight: False  # true if highlighted, false otherwise
 index: 650
 
 # short descriptor that will be displayed in plain text
-blurb: I have exposer to Google Sheets including formulas and data visualization.
+blurb: I have exposure to Google Sheets, including formulas and data visualization.
 ---
 <!-- data visualization intro project: https://docs.google.com/spreadsheets/d/1fZcW69cZcPMv1iXgt5JW9JaYVv2K7uk-LaLv2w9736s/edit#gid=240927432>
 <!-- anyone view link: https://docs.google.com/spreadsheets/d/1fZcW69cZcPMv1iXgt5JW9JaYVv2K7uk-LaLv2w9736s/edit?usp=sharing>
+<!-- coursera link: https://www.coursera.org/learn/data-visualization-tableau/peer/6PeiN/google-sheets-visualization-skills-activity/review/VHJACliuEeyJ6g5RuEDhIw -->
