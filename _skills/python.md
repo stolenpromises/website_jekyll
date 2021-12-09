@@ -12,7 +12,7 @@ attribution_url: https://python.org
 
 highlight: True  # true if highlighted, false otherwise
 
-# index number for sorting which affects loops over all projects
+# index number for sorting which affects loops over all skills
 index: 10
 
 # short descriptor that will be displayed in plain text
