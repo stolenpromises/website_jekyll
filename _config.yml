@@ -68,5 +68,6 @@ collections:
         # 200-229 | IDE's
         # 230-259 | source control
       # other
+        # 500-599 | visualization
         # 600-699 | document editing
         # 700-799 | asset editing
