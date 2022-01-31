@@ -16,6 +16,5 @@ highlight: True  # true if highlighted, false otherwise
 index: 160
 
 # short descriptor that will be displayed in plain text
-blurb: I have exposure to Pandas - a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
-built on top of the Python programming language.
+blurb: I have exposure to Pandas - a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 ---
